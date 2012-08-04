@@ -25,7 +25,6 @@ public class WorldListener implements Listener {
 			final long current = Calendar.getInstance().getTimeInMillis();
 			if (current - msecs > 5000) {
 				msecs = current;
-				plugin.warning("WorldSave detected. If a person triggered it then ignore this message. However, if another world save plugin is responsible, then you should uninstall it before it saves while a backup is in progress.");
 			}
 		}
 	}
